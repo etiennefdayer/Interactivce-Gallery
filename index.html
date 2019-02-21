@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="js/lightbox/lightbox.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/css/lightbox.min.css">
+    <title>Interactive Photo Gallery - Etienne Dayer</title>
+  </head>
+  <body>
+    <main>
+      <input type="text" id="search" name="search" placeholder="Search..." data-list=".list">
+      <section  class="list">
+        <li>
+        <a href="images/01.jpg" data-lightbox="gallery" data-title="I love the Leman Lake. Took this snap on a drive on my way back from Lausanne to Sion" data-alt="Leman Lake">
+        <img src="images/thumbnails/01.jpg" alt="Hay Bales"><div class="transparent">I love the Leman Lake. Took this snap on a drive on my way back from Lausanne to Sion</div>
+        </a>
+        </li>
+        <a href="images/02.jpg" data-lightbox="gallery" data-title="First communion of my brother." data-alt="Church">
+        <img src="images/thumbnails/02.jpg" alt="Lake"><div class="transparent">First communion of my brother.Church.</div>
+          </a>
+          <a href="images/03.jpg" data-lightbox="gallery" data-title="Photo taken in Roma, Italy." data-alt="Italy">
+        <img src="images/thumbnails/03.jpg" alt="Canyon"><div class="transparent">Photo taken in Roma, Italy.</div>
+      </a>
+      <a href="images/04.jpg" data-lightbox="gallery" data-title="My favorite tree." data-alt="Tree">
+        <img src="images/thumbnails/04.jpg" alt="Iceberg"><div class="transparent">It was amazing to see a tree like once in my life.</div>
+      </a>
+      <a href="images/05.jpg" data-lightbox="gallery" data-title="Shadow in a church." data-alt="church">
+        <img src="images/thumbnails/05.jpg" alt="Desert"><div class="transparent">Shadow in a church</div>
+      </a>
+      <a href="images/06.jpg" data-lightbox="gallery" data-title="Blue sky with rainbows." data-alt="Sky">
+        <img src="images/thumbnails/06.jpg" alt="Fall"><div class="transparent">Blue sky with rainbows.</div>
+      </a>
+      <a href="images/07.jpg" data-lightbox="gallery" data-title="Field of flowers. It was a really nice day." data-alt="Flowers">
+        <img src="images/thumbnails/07.jpg" alt="Plantation"><div class="transparent">Field of flowers. It was a really nice day.</div>
+      </a>
+      <a href="images/08.jpg" data-lightbox="gallery" data-title="Fribourg, Switzerland!" data-alt="Fribourg">
+        <img src="images/thumbnails/08.jpg" alt="Dunes"><div class="transparent">Fribourg, Switzerland</div>
+      </a>
+      <a href="images/09.jpg" data-lightbox="gallery" data-title="Lake of Neuchatel, Switzerland." data-alt="Neuchatel ">
+        <img src="images/thumbnails/09.jpg" alt="Countryside Lane"><div class="transparent">Lake of Neuchatel.</div>
+      </a>
+      <a href="images/10.jpg" data-lightbox="gallery" data-title="Desert in Marocco! The white and black effects makes this photo quite interesting in my opinion." data-alt="Desert">
+        <img src="images/thumbnails/10.jpg" alt="Sunset"><div class="transparent">Desert in Marocco! The white and black effects makes this photo quite interesting in my opinion.</div>
+      </a>
+      <a href="images/11.jpg" data-lightbox="gallery" data-title="The view was breathtaking, this sunny day in Sydney." data-alt="Australia">
+        <img src="images/thumbnails/11.jpg" alt="Cave"><div class="transparent">The view was breathtaking, this sunny day in Sydney.</div>
+      </a>
+      <a href="images/12.jpg" data-lightbox="gallery" data-title="Photo taken in California, San Diego." data-alt="sea">
+        <img src="images/thumbnails/12.jpg" alt="Bluebells"><div class="transparent">Photo taken in California, San Diego.</div>
+      </a>
+    </section>
+  </main>
+
+<!--Fallback CDN -->
+<script
+  src="https://code.jquery.com/jquery-2.0.2.min.js"
+  integrity="sha256-TZWGoHXwgqBP1AF4SZxHIBKzUdtMGk0hCQegiR99itk="
+  crossorigin="anonymous"></script>
+<script src="js/lightbox/lightbox-plus-jquery.min.js"></script>
+<script type="text/javascript" src="js/hideseek/jquery.hideseek.min.js"></script>
+<script> $(document).ready(function() {
+	$('#search').hideseek();
+}); </script>
+
+
+  </body>
+  </html>
+</html>
